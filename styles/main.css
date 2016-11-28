@@ -8,6 +8,124 @@ body {
   font-family: 'Didact Gothic', Arial, sans-serif;
 }
 
+button{
+	border-radius: 6px;
+	padding: 7px;
+}
+
+/** Les fleurs **/
+.suggestions section{
+	display: flex;
+}
+
+.suggestions div{
+	text-align: center;
+}
+
+.blocNouveaute{
+	display: flex;
+}
+
+.nouveautes{
+	border: 1px #79544b solid;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.fleurDossier{
+	border: 1px #79544b solid;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.coupDeCoeur{
+	border: 1px #79544b solid;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#section1 img{
+	width: 45%;
+}
+
+#section2 img{
+	width: 65%;
+}
+
+p{
+	margin: 5px 15px 45px 15px;
+}
+
+/** Les fleurs : fin **/
+
+/** Footer **/
+
+.plusInfos{
+	background-color: #57AA26;
+	color: #FFFFFF;
+	border: none;
+}
+
+.blocInfos{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.blocCoordonnees{
+	margin: 10px 10px 10px 300px;
+}
+
+.newsletter{
+	margin: 10px 300px 10px 10px;
+	float: right;
+}
+
+.newsletter div{
+	margin-top: 5px;
+}
+
+.infosSite{
+	margin-top: 10px;
+	padding: 5px 0px 5px 0px;
+	text-align: center;
+	background-color: #e3e3e3;
+}
+
+.youtube{
+	color: #eb381a;
+}
+
+.facebook{
+	color: #3e5c9a;
+}
+
+.twitter{
+	color: #1da1f2;
+}
+
+.google{
+	color: #dd4f43;
+}
+
+.iconesMedia{
+	font-size: 30px;
+	margin-right: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: #53b75c;
+	-moz-transition: color 0.5s ease-in;
+	-webkit-transition:  color 0.5s ease-in;
+	-o-transition:  color 0.5s ease-in;
+}
+/** Footer : fin **/
+
 .carrousel {
   width: 80%;
   margin: auto;
@@ -84,7 +202,7 @@ header nav {
   background-color: #53b75c;
 }
 
-/* On enlève les puces du menu*/
+/* On enlÃ¨ve les puces du menu*/
 header nav ul li{
   list-style: none;
 }
@@ -108,10 +226,10 @@ header nav ul li a:hover{
   background-color: #408d47;
 }
 
-/* On réduit la taille des éléments du menu */
+/* On rÃ©duit la taille des Ã©lÃ©ments du menu */
 header nav ul {
   display: flex;
-  flex-direction: row;  /* On met les liens côtes-à-côtes */
+  flex-direction: row;  /* On met les liens cÃ´tes-Ã -cÃ´tes */
   justify-content: space-between;
   align-items: center;
   height: 100%;
