@@ -72,3 +72,65 @@ body {
 .carrousel .carrousel-item .carrousel-bloc .carrousel-lien:hover {
   color: #53b75c;
 }
+
+/* Menu */
+
+/*La barre de menu prend toute la largeur*/
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: #53b75c;
+}
+
+/* On enlève les puces du menu*/
+header nav ul li{
+  list-style: none;
+}
+
+header nav ul li a{
+  /* Lien prend toute la place du li */
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #fff;
+  padding: 1rem 1rem;
+}
+
+header nav ul li a:hover{
+  /* Lien prend toute la place du li */
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  background-color: #408d47;
+}
+
+/* On réduit la taille des éléments du menu */
+header nav ul {
+  display: flex;
+  flex-direction: row;  /* On met les liens côtes-à-côtes */
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+
+/* Barre recherche */
+header .searchbar-textfield {
+  background-color: #fff;
+  border: 1px solid #408d47;
+  margin: 0;
+  padding: 0.5rem 0.5rem;
+}
+
+/* Bouton recherche */
+header .searchbar-button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #408d47;
+  border: 1px solid #408d47;
+  padding: 0.5rem 0.5rem;
+}
