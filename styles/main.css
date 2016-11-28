@@ -8,109 +8,10 @@ body {
   font-family: 'Didact Gothic', Arial, sans-serif;
 }
 
-button{
-	border-radius: 6px;
-	padding: 7px;
-}
-
-/** Les fleurs **/
-.suggestions section{
-	display: flex;
-}
-
-.suggestions div{
-	text-align: center;
-}
-
-.blocNouveaute{
-	display: flex;
-}
-
-.nouveautes{
-	border: 1px #79544b solid;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-.fleurDossier{
-	border: 1px #79544b solid;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-.coupDeCoeur{
-	border: 1px #79544b solid;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-#section1 img{
-	width: 45%;
-}
-
-#section2 img{
-	width: 65%;
-}
-
-p{
-	margin: 5px 15px 45px 15px;
-}
-
-/** Les fleurs : fin **/
-
-/** Footer **/
-
-.plusInfos{
-	background-color: #57AA26;
-	color: #FFFFFF;
-	border: none;
-}
-
-.blocInfos{
-	display: flex;
-	width: 100%;
-	justify-content: space-between;
-}
-
-.blocCoordonnees{
-	margin: 10px 10px 10px 300px;
-}
-
-.newsletter{
-	margin: 10px 300px 10px 10px;
-	float: right;
-}
-
-.newsletter div{
-	margin-top: 5px;
-}
-
-.infosSite{
-	margin-top: 10px;
-	padding: 5px 0px 5px 0px;
-	text-align: center;
-	background-color: #e3e3e3;
-}
-
-.youtube{
-	color: #eb381a;
-}
-
-.facebook{
-	color: #3e5c9a;
-}
-
-.twitter{
-	color: #1da1f2;
-}
-
-.google{
-	color: #dd4f43;
-}
-
-.iconesMedia{
-	font-size: 30px;
-	margin-right: 5px;
+.content {
+  width: 80%;
+  margin: auto;
+  min-width: 780px;
 }
 
 a {
@@ -118,17 +19,86 @@ a {
 	color: black;
 }
 
-a:hover{
+a:hover {
 	color: #53b75c;
 	-moz-transition: color 0.5s ease-in;
 	-webkit-transition:  color 0.5s ease-in;
 	-o-transition:  color 0.5s ease-in;
 }
-/** Footer : fin **/
 
+button {
+	border-radius: 6px;
+	padding: 7px;
+  background-color: #57AA26;
+	color: #FFFFFF;
+	border: none;
+  cursor: pointer;
+}
+
+/** MENU **/
+/*La barre de menu prend toute la largeur*/
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: #53b75c;
+}
+
+/* On enlÃ¨ve les puces du menu*/
+header nav ul li{
+  list-style: none;
+}
+
+header nav ul li a{
+  /* Lien prend toute la place du li */
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #fff;
+  padding: 1rem 1rem;
+}
+
+header nav ul li a:hover{
+  /* Lien prend toute la place du li */
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  background-color: #408d47;
+}
+
+/* On rÃ©duit la taille des Ã©lÃ©ments du menu */
+header nav ul {
+  display: flex;
+  flex-direction: row;  /* On met les liens cÃ´tes-Ã -cÃ´tes */
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+
+/* Barre recherche */
+header .searchbar-textfield {
+  background-color: #fff;
+  border: 1px solid #408d47;
+  margin: 0;
+  padding: 0.5rem 0.5rem;
+}
+
+/* Bouton recherche */
+header .searchbar-button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #408d47;
+  border: 1px solid #408d47;
+  padding: 0.5rem 0.5rem;
+}
+/** FIN MENU **/
+
+/** CARROUSEL **/
 .carrousel {
-  width: 80%;
-  margin: auto;
   overflow: hidden;
 }
 
@@ -190,65 +160,84 @@ a:hover{
 .carrousel .carrousel-item .carrousel-bloc .carrousel-lien:hover {
   color: #53b75c;
 }
+/** FIN CARROUSEL **/
 
-/* Menu */
-
-/*La barre de menu prend toute la largeur*/
-header nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  background-color: #53b75c;
+/** FLEURS **/
+.suggestions section {
+	display: flex;
 }
 
-/* On enlÃ¨ve les puces du menu*/
-header nav ul li{
-  list-style: none;
+.suggestions div {
+	text-align: center;
 }
 
-header nav ul li a{
-  /* Lien prend toute la place du li */
-  display: block;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1rem;
-  color: #fff;
-  padding: 1rem 1rem;
+.blocNouveaute {
+	display: flex;
 }
 
-header nav ul li a:hover{
-  /* Lien prend toute la place du li */
-  display: block;
-  text-decoration: none;
-  font-weight: bold;
-  color: #fff;
-  background-color: #408d47;
+.nouveautes {
+	border: 1px #79544b solid;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
-/* On rÃ©duit la taille des Ã©lÃ©ments du menu */
-header nav ul {
-  display: flex;
-  flex-direction: row;  /* On met les liens cÃ´tes-Ã -cÃ´tes */
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-  margin: 0;
+.fleurDossier {
+	border: 1px #79544b solid;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
-/* Barre recherche */
-header .searchbar-textfield {
-  background-color: #fff;
-  border: 1px solid #408d47;
-  margin: 0;
-  padding: 0.5rem 0.5rem;
+.coupDeCoeur {
+	border: 1px #79544b solid;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
-/* Bouton recherche */
-header .searchbar-button {
-  text-decoration: none;
-  color: #fff;
-  background-color: #408d47;
-  border: 1px solid #408d47;
-  padding: 0.5rem 0.5rem;
+#section1 img {
+	width: 45%;
 }
+
+#section2 img {
+	width: 65%;
+}
+/** FIN FLEURS **/
+
+/** FOOTER **/
+footer .blocInfos {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+footer .newsletter div {
+	margin-top: 5px;
+}
+
+.infosSite {
+	margin-top: 10px;
+	padding: 5px 0px 5px 0px;
+	text-align: center;
+	background-color: #e3e3e3;
+}
+
+footer .youtube {
+	color: #eb381a;
+}
+
+footer .facebook {
+	color: #3e5c9a;
+}
+
+footer .twitter {
+	color: #1da1f2;
+}
+
+footer .google {
+	color: #dd4f43;
+}
+
+footer .iconesMedia {
+	font-size: 30px;
+	margin-right: 5px;
+}
+/** FIN FOOTER **/
