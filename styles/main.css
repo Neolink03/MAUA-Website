@@ -26,7 +26,7 @@ header nav ul li a{
   font-weight: bold;
   font-size: 1rem;
   color: #fff;
-  padding: 0.4rem 1rem;
+  padding: 1rem 1rem;
 }
 
 header nav ul li a:hover{
@@ -36,7 +36,7 @@ header nav ul li a:hover{
   text-decoration: none;
   font-weight: bold;
   color: #fff;
-  background-color: gray;
+  background-color: #408d47;
 }
 
 /* On réduit la taille des éléments du menu */
@@ -45,7 +45,6 @@ header nav ul {
   flex-direction: row;  /* On met les liens côtes-à-côtes */
   justify-content: space-between;
   align-items: center;
-  width: 60%;
   height: 100%;
   margin: 0;
 }
@@ -54,15 +53,18 @@ header nav ul {
 /* Barre recherche */
 header .searchbar-textfield {
   background-color: #fff;
-  border: 1px solid gray;
+  border: 1px solid #408d47;
   margin: 0;
+  padding: 0.5rem 0.5rem;
 }
 
 /* Bouton recherche */
 header .searchbar-button {
   text-decoration: none;
-  background-color: #fff;
-  border: 1px solid gray;
+  color: #fff;
+  background-color: #408d47;
+  border: 1px solid #408d47;
+  padding: 0.5rem 0.5rem;
 }
 
 
