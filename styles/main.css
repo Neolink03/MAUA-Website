@@ -1,3 +1,74 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Didact Gothic', Arial, sans-serif;
+}
+
+.carrousel {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carrousel figure {
+  position: relative; 
+  width: 300%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: left;
+  animation: 15s slide infinite;
+}
+
+@keyframes slide {
+  0% { left: 0%; }
+  28% { left: 0%; }
+  33% { left: -100%; }
+  61% { left: -100%; }
+  66% { left: -200%; }
+  97% { left: -200%; }
+  100% { left: 0%; }
+}
+
+.carrousel .carrousel-item {
+  height: 240px;
+  width: 33.33%;
+  float: left;
+  background-size: 100%;
+}
+
+.carrousel .carrousel-item.pepiniere {
+  background: url('../src/img/carrousel_pepiniere.jpg') center center no-repeat;
+  background-size: 100%;
+}
+
+.carrousel .carrousel-item.catalogue {
+  background: url('../src/img/carrousel_catalogue.jpg') center center no-repeat;
+  background-size: 100%;
+}
+
+.carrousel .carrousel-item.conseils {
+  background: url('../src/img/carrousel_jardin.jpg') center center no-repeat;
+  background-size: 100%;
+}
+
+.carrousel .carrousel-item .carrousel-bloc {
+  width: 30%;
+  float: right;
+  font-size: initial;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  color: #fff;
+}
+
+.carrousel .carrousel-item .carrousel-bloc .carrousel-lien {
+  color: #fff;
+}
+
+.carrousel .carrousel-item .carrousel-bloc .carrousel-lien:hover {
+  color: #53b75c;
 }
