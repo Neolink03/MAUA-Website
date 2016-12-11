@@ -12,25 +12,80 @@
   <link rel="stylesheet" type="text/css" href="styles/normalize.css">
   <link rel="stylesheet" type="text/css" href="styles/responsive.css">
   <link rel="stylesheet" type="text/css" href="styles/main.css">
+  <link rel="stylesheet" type="text/css" href="styles/header.css">
 </head>
 
 <body>
   <header>
-    <nav>
-      <ul>
-        <li><a href="">Accueil</a></li>
-        <li><a href="">Catalogue</a></li>
-        <li><a href="">Nos conseils</a></li>
-        <li><a href="">Fleur du mois</a></li>
-        <li><a href="">Contact</a></li>
+  <section class="banner">
+    <section class="banner-header">
+      <img src="src/img/logo.png" />
+      
+      <section class="banner-header-titles">
+        <h1>MAUA</h1>
+        <h2>Pépiniériste</h2>
+      </section>
+    </section>
+    
+    <section class="banner-useraction">
+      <section class="banner-useraction-login">
+      <h3><i class="fa fa-user" aria-hidden="true"></i> Mon compte</h3>
+      
+      <section class="banner-useraction-datas">
+        <form class="loginform" name="loginform">
+          <div class="input-group margin-bottom-sm">
+            <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
+            <input class="banner-useraction-login-textfield" type="text" placeholder="Mail">
+          </div>
+          
+          <div class="input-useraction-group">
+            <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+            <input class="banner-useraction-login-textfield" type="password" placeholder="Mot-de-passe">
+            <button class="banner-useraction-login-button" type="submit" value="" title="Lancer la recherche">
+              <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            </button>
+          </div>
+        </form>
+      </section>
+      
+      <ul class="banner-useraction-actions">
+        <li><a href="">> Créer le compte</a></li>
+        <li><a href="">> Mot de passe oublié ?</a></li>
       </ul>
-      <!-- Barre de recherche -->
-      <form class="searchbar" name="searchbar">
-        <input class="searchbar-textfield" type="text" placeholder="Recherche">
-        <button class="searchbar-button" type="submit" value="" title="Lancer la recherche"><i class="fa fa-search"></i></button>
-      </form>
-    </nav>
-  </header>
+    </section>
+    
+    <section class="banner-useraction-basket">
+      <h3><i class="fa fa-shopping-cart" aria-hidden="true"></i> Mon panier</h3>
+      
+      <ul class="banner-useraction-datas">
+        <li><strong class="banner-useraction-counter">0</strong> articles</li>
+        <li>Total : <strong class="banner-useraction-counter">0 €</strong></li>
+      </ul>
+      
+      <ul class="banner-useraction-actions">
+        <li><a href="">> Voir le panier</a></li>
+      </ul>
+    </section>
+  </section>
+    
+    </section>
+
+  <nav>
+    <ul>
+      <li><a href="">Accueil</a></li>
+      <li><a href="">Catalogue</a></li>
+      <li><a href="">Nos conseils</a></li>
+      <li><a href="">Fleur du mois</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+    
+    <!-- Barre de recherche -->
+    <form class="searchbar" name="searchbar">
+      <input class="searchbar-textfield" type="text" placeholder="Recherche">
+      <button class="searchbar-button" type="submit" value="" title="Lancer la recherche"><i class="fa fa-search"></i></button>
+    </form>
+  </nav>
+</header>
   <div class="content">
     <div class="carrousel">
       <figure>
