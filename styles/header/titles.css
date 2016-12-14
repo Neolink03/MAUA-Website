@@ -1,0 +1,25 @@
+/* On met le logo et son titre côte-à-côte*/
+header .banner-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* On redimensionne le logo  */
+header .banner-header img {
+  width: 5rem;
+  height: 5rem;
+  margin: 0.5rem;
+}
+
+/* Titre du logo */
+header .banner-header h1 {
+  color: #53b75c;
+  margin: 0;
+}
+
+/* Sous-titre du logo */
+header .banner-header h2 {
+  color: #79544b;
+  margin: 0;
+}

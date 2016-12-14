@@ -1,0 +1,21 @@
+/* Champs login + bouton recherche */
+header .banner-useraction-login-textfield {
+  background-color: #fff;
+  border: 1px solid #79544b;
+  border-radius: 5px;
+}
+
+header .banner-useraction-login-button {
+  background-color: #79544b;
+  color: #fff;
+  border: 1px solid #79544b;
+  border-radius: 5px;
+  padding: 0.2rem;
+  font-weight: bold;
+}
+
+/* Inverser couleurs au survol */
+header .banner-useraction-login-button:hover {
+  color: #79544b;
+  background-color: #fff;
+}
