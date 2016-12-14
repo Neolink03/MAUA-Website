@@ -158,23 +158,23 @@ footer .newsletter div {
 	background-color: #e3e3e3;
 }
 
-footer .youtube {
+.youtube {
 	color: #eb381a;
 }
 
-footer .facebook {
+.facebook {
 	color: #3e5c9a;
 }
 
-footer .twitter {
+.twitter {
 	color: #1da1f2;
 }
 
-footer .google {
+.google {
 	color: #dd4f43;
 }
 
-footer .iconesMedia {
+footer .iconesMedia, header .iconesMedia {
 	font-size: 30px;
 	margin-right: 5px;
 }

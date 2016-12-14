@@ -25,6 +25,15 @@ header .banner {
   margin: 0 0 0.5rem 0;
 }
 
+header .banner-headerAndAdresscard {
+  display: flex;
+  align-items: center;
+}
+
+header .banner-adresscard {
+  flex-wrap: none;
+}
+
 /* Espace entre l'encart login et panier */
 header .banner-login {
   margin-right: 1rem;
