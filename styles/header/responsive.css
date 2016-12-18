@@ -1,0 +1,8 @@
+/* region Mobile */
+@media screen and (max-width: 830px) {
+  header .banner-adresscard {
+    display: none;
+  }
+
+}
+/* end region /*
