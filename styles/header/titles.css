@@ -8,8 +8,6 @@ header .banner-header {
 
 /* On redimensionne le logo  */
 header .banner-header img {
-  width: 5rem;
-  height: 5rem;
   margin: 0.5rem;
 }
 
