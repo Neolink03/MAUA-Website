@@ -3,6 +3,21 @@
   header .banner-adresscard {
     display: none;
   }
+}
 
+@media screen and (max-width: 768px) {
+
+  header .banner {
+    flex-direction: column;
+  }
+
+  header .banner-header-titles {
+    display: none;
+  }
+
+  header .banner-header img{
+   width: 2rem;
+   height: 2rem;
+  }
 }
 /* end region /*

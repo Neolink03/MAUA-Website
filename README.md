@@ -1,13 +1,13 @@
-Site Pepinieriste : 
+Site Pepinieriste :
 - navigation (menu) : entreprise(contact), catalogue, accueil, plante du mois, panier
 - image de la fleur (+ prix, + texte description (et lien))
 - banniere
 - footer : petit logos + infos
-- Rubrique nouveauté 
+- Rubrique nouveauté
 - barre de recherche
 - petit encars descriptif de l'entreprise
 - newsletter
-- 
+-
 
 
 
@@ -15,3 +15,5 @@ Site Pepinieriste :
  zoning : https://wireframe.cc/rUIqsQ
  mobile : https://wireframe.cc/swmSw0
  mobile  menu : https://wireframe.cc/bU9OEi
+ mobile menu avec login : https://wireframe.cc/WFuaI3
+  mobile menu avec panier https://wireframe.cc/rxhqgo
