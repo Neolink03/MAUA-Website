@@ -1,8 +1,14 @@
+header .banner-useraction-login {
+  padding: 0.5rem;
+  width: 15rem;
+}
+
 /* Champs login + bouton recherche */
 header .banner-useraction-login-textfield {
   background-color: #fff;
   border: 1px solid #79544b;
   border-radius: 5px;
+  width: 10rem;
 }
 
 header .banner-useraction-login-button {

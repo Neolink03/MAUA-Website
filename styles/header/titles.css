@@ -24,3 +24,9 @@ header .banner-header h2 {
   color: #79544b;
   margin: 0;
 }
+
+header .banner-adresscard ul li {
+  color: #79544b;
+  font-size: 1.3rem;
+  width: 11rem;
+}

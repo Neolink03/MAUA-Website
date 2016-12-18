@@ -5,12 +5,12 @@ header .banner {
   justify-content: space-between;
 }
 
-/* Encart login et panier */ 
+/* Encart login et panier */
 .banner-useraction {
   /* Habillage */
   color: #79544b;
   background-color: #f2e259;
-  
+
   /* On le met côte-à-côte + réglage des espaces */
   display: flex;
   flex-direction: space-between;
@@ -20,7 +20,7 @@ header .banner {
 .banner h3 {
   /* Habillage */
   color: #53b75c;
-  
+
   /* Espace en bas */
   margin: 0 0 0.5rem 0;
 }
@@ -37,18 +37,4 @@ header .banner-adresscard {
 /* Espace entre l'encart login et panier */
 header .banner-login {
   margin-right: 1rem;
-}
-
-/* On habille les liens de l'encart panier et login */
-header .banner .banner-useraction-actions a{
-  color: #79544b;
-}
-
-header .banner .banner-useraction-actions a:hover{
-  color: #e0252d;
-}
-
-/* On met l'encart données, panier à la même hauteur */
-header .banner .banner-useraction-datas {
-  height: 3.2rem;
 }

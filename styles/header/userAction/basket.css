@@ -1,13 +1,11 @@
+header .banner-useraction-basket {
+  padding: 0.5rem;
+}
+
 /* Données du panier : nombre articles et montant total */
 header .banner strong.banner-useraction-counter {
   color: #e0252d;
   font-size: 1.3rem;
-}
-
-/* On met un padding à chaque élément 
-pour mettre le fond du panier dans une couleur plus sombre */
-header .banner-useraction-basket, header .banner-useraction-login {
-  padding: 0.5rem;
 }
 
 header .banner-useraction-basket {

@@ -13,7 +13,7 @@ header nav ul li{
   list-style: none;
 }
 
-header nav ul li a{
+header nav ul li a {
   /* Lien prend toute la place du li */
   display: block;
   text-decoration: none;
@@ -23,7 +23,7 @@ header nav ul li a{
   padding: 1rem 1rem;
 }
 
-header nav ul li a:hover{
+header nav ul li a:hover {
   /* Lien prend toute la place du li */
   display: block;
   text-decoration: none;
@@ -43,6 +43,10 @@ header nav ul {
 }
 
 /* Barre recherche */
+header .searchbar {
+  width: 20rem;
+}
+
 header .searchbar-textfield {
   background-color: #fff;
   border: 1px solid #408d47;
