@@ -35,7 +35,15 @@
   <section class="banner">
 
     <section class="banner-menu">
+
       <section class="banner-header">
+        <button
+          id="mainmenu_show_button"
+          class="banner-header-mainmenu_button"
+          onclick="toggleDisplayMobileMainMenu('mainmenu', 'mainmenu_show_button')"
+          value="show"><i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+
         <img src="src/img/logo.png" />
 
         <section class="banner-header-titles">
@@ -48,13 +56,13 @@
       <section class="banner-useraction_mobile_menu">
           <button
             id="login_show_button"
-            onclick="showMobileMenu('banner-useraction-login', 'login_show_button')"
+            onclick="toggleDisplayMobileMenu('banner-useraction-login', 'login_show_button')"
             value="show"><i class="fa fa-user" aria-hidden="true"></i>
           </button>
 
           <button
             id="basket_show_button"
-            onclick="showMobileMenu('banner-useraction-basket', 'basket_show_button')"
+            onclick="toggleDisplayMobileMenu('banner-useraction-basket', 'basket_show_button')"
             value="show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
           </button>
       </section>
@@ -116,7 +124,7 @@
 
     </section>
 
-  <nav>
+  <nav class="mainmenu hide_mobile_main_menu">
     <ul>
       <li><a href="">Accueil</a></li>
       <li><a href="">Catalogue</a></li>

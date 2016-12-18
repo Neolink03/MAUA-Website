@@ -21,5 +21,21 @@
     width: 100%;
     text-align: center;
   }
+
+  .show_mobile_main_menu {
+    display: flex;
+  }
+
+  .hide_mobile_main_menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .show_mobile_main_menu,
+  .hide_mobile_main_menu {
+    display: flex;
+  }
 }
 /* end region /*
