@@ -38,25 +38,24 @@ const displayMobileSearchAndHideBannerTitles = function() {
   toggleDisplayElement(mobileSearchBar, showButton);
 }
 
-const toggleDisplayElement = function(elementToHide, actionButton) {
+const toggleDisplayElement = function(element, actionButton) {
   let action = actionButton.getAttribute("value");
 
-  let baseClass = getBaseClassOfElement(elementToHide);
+  let baseClass = getBaseClassOfElement(element);
 
   if(action === "show") {
 
-    elementToHide.setAttribute("class", baseClass + " show_mobile_menu");
+    element.setAttribute("class", baseClass + " show_mobile_menu");
     actionButton.setAttribute("value", "hide");
   }
   else {
-    elementToHide.setAttribute("class", baseClass + " hide_mobile_menu");
+    element.setAttribute("class", baseClass + " hide_mobile_menu");
     actionButton.setAttribute("value", "show");
   }
 }
 
 const hideElement = function(elementToHide) {
-  elementToHide.setAttribute("class", baseClass + " show_mobile_menu");
-  actionButton.setAttribute("value", "hide");
+
 }
 
 const getBaseClassOfElement = function(element) {
