@@ -46,19 +46,32 @@
 
         <img src="src/img/logo.png" />
 
-        <section class="banner-header-titles">
+        <section id="banner-header-titles" class="banner-header-titles show_mobile_menu">
           <h1>MAUA</h1>
           <h2>Pépiniériste</h2>
         </section>
 
       </section>
 
+      <form id="searchbar_mobile" class="searchbar_mobile hide_mobile_menu" name="searchbar">
+        <input class="searchbar_mobile-textfield" type="text" placeholder="Recherche">
+        <button class="searchbar_mobile-button" type="submit" value="" title="Lancer la recherche"><i class="fa fa-search"></i></button>
+      </form>
+
+      <!-- Mobile menu -->
       <section class="banner-useraction_mobile_menu">
-          <button
-            id="login_show_button"
-            onclick="toggleDisplayMobileMenu('banner-useraction-login', 'login_show_button')"
-            value="show"><i class="fa fa-user" aria-hidden="true"></i>
-          </button>
+
+        <button
+          id="searchbar_show_button"
+          onclick="displayMobileSearchAndHideBannerTitles()"
+          value="show"><i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+
+        <button
+          id="login_show_button"
+          onclick="toggleDisplayMobileMenu('banner-useraction-login', 'login_show_button')"
+          value="show"><i class="fa fa-user" aria-hidden="true"></i>
+        </button>
 
           <button
             id="basket_show_button"
