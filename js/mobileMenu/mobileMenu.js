@@ -35,27 +35,33 @@ const displayMobileSearchAndHideBannerTitles = function() {
   let mobileSearchBar = document.getElementById("searchbar_mobile");
   let bannerTitles = document.getElementById("banner-header-titles");
 
+  // Show mobile search bar and hide banner header and vice versa
   toggleDisplayElement(mobileSearchBar, showButton);
+  toggleActionButton(showButton);
+  toggleDisplayElement(bannerTitles, showButton);
 }
 
 const toggleDisplayElement = function(element, actionButton) {
+  let baseClass = getBaseClassOfElement(element);
   let action = actionButton.getAttribute("value");
 
-  let baseClass = getBaseClassOfElement(element);
-
   if(action === "show") {
-
     element.setAttribute("class", baseClass + " show_mobile_menu");
-    actionButton.setAttribute("value", "hide");
   }
   else {
     element.setAttribute("class", baseClass + " hide_mobile_menu");
-    actionButton.setAttribute("value", "show");
   }
 }
 
-const hideElement = function(elementToHide) {
+const toggleActionButton = function(button) {
+  let action = button.getAttribute("value");
 
+  if(action === "show") {
+    button.setAttribute("value", "hide");
+  }
+  else {
+    button.setAttribute("value", "show");
+  }
 }
 
 const getBaseClassOfElement = function(element) {
