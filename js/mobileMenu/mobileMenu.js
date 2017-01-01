@@ -44,7 +44,7 @@ const toggleDisplayElement = function(elementToHide, actionButton) {
   let action = actionButton.getAttribute("value");
 
   let elementToHideClassesText = elementToHide.getAttribute("class").trim();
-  let elementToHideClasses = classesText.split(" ");
+  let elementToHideClasses = elementToHideClassesText.split(" ");
   let baseClass = elementToHideClasses[0];
 
   if(action === "show") {

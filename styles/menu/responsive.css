@@ -29,6 +29,10 @@
   .hide_mobile_main_menu {
     display: none;
   }
+
+  .searchbar {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -36,6 +40,10 @@
   .show_mobile_main_menu,
   .hide_mobile_main_menu {
     display: flex;
+  }
+
+  .searchbar_mobile {
+    display: none;
   }
 }
 /* end region /*
