@@ -1,4 +1,12 @@
 .banner-useraction_mobile_menu,
 .banner-header-mainmenu_button{
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+
+.searchbar_mobile {
+  min-width: 10rem;
+}
+
+.searchbar_mobile-textfield {
+  width: 70%;
 }

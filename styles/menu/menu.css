@@ -65,7 +65,7 @@ header .searchbar-button {
 }
 
 /* Inverser couleurs au survol */
-  header .searchbar-button:hover {
-    color: #408d47;
-    background-color: #fff;
-  }
+header .searchbar-button:hover {
+  color: #408d47;
+  background-color: #fff;
+}

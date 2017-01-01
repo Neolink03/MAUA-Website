@@ -3,12 +3,12 @@ header .banner-header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-right: 1rem;
+  margin-right: 0.3rem;
 }
 
 /* On redimensionne le logo  */
 header .banner-header img {
-  margin: 0.5rem;
+  margin: 0.3rem;
 }
 
 /* Titre du logo */
