@@ -7,7 +7,7 @@
   }
 
   .banner-useraction_mobile_menu {
-    display: flex;
+    display: block;
   }
 
   .show_mobile_menu {

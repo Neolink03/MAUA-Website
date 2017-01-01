@@ -10,3 +10,7 @@
 .searchbar_mobile-textfield {
   width: 70%;
 }
+
+.banner-useraction_mobile_menu button {
+  margin-bottom: 0.2rem;
+}
