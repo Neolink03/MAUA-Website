@@ -9,6 +9,9 @@
 
 .searchbar_mobile-textfield {
   width: 70%;
+  border-radius: 5px;
+  border: 1px solid #53b75c;
+  padding: 0.4rem 0.4rem;
 }
 
 .banner-useraction_mobile_menu button {
