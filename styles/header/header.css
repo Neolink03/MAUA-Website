@@ -1,5 +1,11 @@
 /* Bannière */
-header .banner {
+
+header {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.banner {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -25,16 +31,16 @@ header .banner {
   margin: 0 0 0.5rem 0;
 }
 
-header .banner-menu {
+.banner-menu {
   display: flex;
   align-items: center;
 }
 
-header .banner-adresscard {
+.banner-adresscard {
   flex-wrap: none;
 }
 
 /* Espace entre l'encart login et panier */
-header .banner-login {
+.banner-login {
   margin-right: 1rem;
 }
