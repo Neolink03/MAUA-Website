@@ -1,4 +1,4 @@
-/* region Mobile */
+/* For Mobile */
 @media screen and (max-width: 768px) {
   header .banner {
     flex-direction: column;
@@ -35,6 +35,7 @@
   }
 }
 
+/* For Desktop */
 @media screen and (min-width: 768px) {
 
   .show_mobile_main_menu,
@@ -46,4 +47,3 @@
     display: none;
   }
 }
-/* end region /*

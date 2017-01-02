@@ -1,4 +1,4 @@
-/* region Mobile */
+/* For mobile */
 @media screen and (max-width: 830px) {
   header .banner-adresscard {
     display: none;
@@ -12,7 +12,11 @@
   }
 
   .banner-header-titles h1 {
-    font-size: 1.33rem;
+    font-size: 1.300rem;
+  }
+  
+  .banner-header-titles h2 {
+    font-size: 1rem;
 
   }
 
@@ -34,6 +38,7 @@
   }
 }
 
+/* For Desktop */
 @media screen and (min-width: 768px) {
 
   header .banner-header img{
@@ -45,4 +50,3 @@
   }
 
 }
-/* end region /*

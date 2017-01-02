@@ -1,29 +1,35 @@
 /* On met le logo et son titre côte-à-côte*/
-header .banner-header {
+.banner-header {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-right: 0.5rem;
 }
 
+.banner-header-titles {
+    background-color: #AB7A5F;
+    border-radius: 1.5rem;;
+    padding: 0.5rem;
+}
+
 /* On redimensionne le logo  */
-header .banner-header img {
+.banner-header img {
   margin: 0.3rem;
 }
 
 /* Titre du logo */
-header .banner-header h1 {
-  color: #53b75c;
+.banner-header h1 {
+  color: #F9D500;
   margin: 0;
 }
 
 /* Sous-titre du logo */
-header .banner-header h2 {
-  color: #79544b;
+.banner-header h2 {
+  color: #fff;
   margin: 0;
 }
 
-header .banner-adresscard ul li {
+.banner-adresscard ul li {
   color: #79544b;
   font-size: 1.3rem;
   width: 12rem;
