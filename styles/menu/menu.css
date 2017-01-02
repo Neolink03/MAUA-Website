@@ -37,15 +37,16 @@ header nav ul li a:hover {
 header nav ul {
   display: flex;
   flex-direction: row;  /* On met les liens cÃ´tes-Ã -cÃ´tes */
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   height: 100%;
   margin: 0;
+  width: 80%;
 }
 
 /* Barre recherche */
 header .searchbar {
-  width: 20rem;
+  width: 30%;
 }
 
 header .searchbar-textfield {
@@ -53,6 +54,7 @@ header .searchbar-textfield {
   border: 1px solid #408d47;
   margin: 0;
   padding: 0.5rem 0.5rem;
+  width: 70%
 }
 
 /* Bouton recherche */
