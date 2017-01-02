@@ -29,7 +29,7 @@ a:hover {
 button {
 	border-radius: 6px;
 	padding: 7px;
-  background-color: #57AA26;
+  background-color: #53B75C;
 	color: #FFFFFF;
 	border: none;
   cursor: pointer;
@@ -158,7 +158,7 @@ footer .newsletter div {
 .infosSite {
 	padding: 5px 0px 5px 0px;
 	text-align: center;
-	background-color: #e3e3e3;
+	background-color: #53B75C;
 }
 
 .youtube {
