@@ -11,7 +11,7 @@ body {
 .content {
   width: 80%;
   margin: auto;
-  min-width: 780px;
+  min-width: 1060px;
 }
 
 a {
@@ -83,7 +83,7 @@ button {
 }
 
 .carrousel .carrousel-item .carrousel-bloc {
-  width: 30%;
+  width: 60%;
   float: right;
   font-size: initial;
   background: rgba(0, 0, 0, 0.8);
@@ -101,48 +101,52 @@ button {
 /** FIN CARROUSEL **/
 
 /** FLEURS **/
-.suggestions section {
-	display: flex;
+.highlights {
+  text-align: center;
 }
 
-.suggestions div {
-	text-align: center;
+.highlights-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.blocNouveaute {
-	display: flex;
+.highlights-item {
+  max-width: 20em;
+  margin: 1em;
+  border: 1px solid #DDDDDD;
 }
 
-.nouveautes {
-	border: 1px #79544b solid;
-	margin-top: 5px;
-	margin-bottom: 5px;
+.highlights-item a {
+  display: block;
+  overflow: hidden;
 }
 
-.fleurDossier {
-	border: 1px #79544b solid;
-	margin-top: 5px;
-	margin-bottom: 5px;
+.highlights-item:hover img {
+  transform: scale(1.15) rotate(-1.5deg);
+  -ms-transform: scale(1.15) rotate(-1.5deg);
+  -webkit-transform: scale(1.15) rotate(-1.5deg);
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
 }
 
-.coupDeCoeur {
-	border: 1px #79544b solid;
-	margin-top: 5px;
-	margin-bottom: 5px;
+.highlights-description {
+  padding: 0 1em 1em;
 }
 
-#section1 img {
-	width: 45%;
-}
-
-#section2 img {
-	width: 65%;
+.highlights-item img {
+  width: 100%;
 }
 /** FIN FLEURS **/
 
 /** FOOTER **/
+footer {
+ padding: 1em;
+}
+
 footer .blocInfos {
 	display: flex;
+  flex-wrap: wrap;
 	width: 100%;
 	justify-content: space-between;
 }
@@ -152,7 +156,6 @@ footer .newsletter div {
 }
 
 .infosSite {
-	margin-top: 10px;
 	padding: 5px 0px 5px 0px;
 	text-align: center;
 	background-color: #e3e3e3;

@@ -2,4 +2,10 @@
 @media screen and (max-width: 768px) {
   
 }
-/* end region /*
+/* end region */
+@media screen and (max-width: 1080px) {
+  .content {
+      width: 100% !important;
+      min-width: inherit !important;
+  }
+}
