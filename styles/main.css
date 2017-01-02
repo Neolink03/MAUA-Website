@@ -8,10 +8,10 @@ body {
   font-family: 'Didact Gothic', Arial, sans-serif;
 }
 
-.content {
+.page_content {
   width: 80%;
   margin: auto;
-  min-width: 1060px;
+  max-width: 1024px;
 }
 
 a {
