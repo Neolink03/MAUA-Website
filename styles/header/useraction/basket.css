@@ -1,0 +1,14 @@
+header .banner-useraction-basket {
+  padding: 0.5rem;
+}
+
+/* Données du panier : nombre articles et montant total */
+header .banner strong.banner-useraction-counter {
+  color: #e0252d;
+  font-size: 1.3rem;
+}
+
+header .banner-useraction-basket {
+  background-color: #ddcf52;
+  min-width: 10rem;
+}
