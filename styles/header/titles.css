@@ -3,7 +3,7 @@ header .banner-header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-right: 0.3rem;
+  margin-right: 0.5rem;
 }
 
 /* On redimensionne le logo  */
@@ -26,5 +26,5 @@ header .banner-header h2 {
 header .banner-adresscard ul li {
   color: #79544b;
   font-size: 1.3rem;
-  width: 11rem;
+  width: 12rem;
 }
