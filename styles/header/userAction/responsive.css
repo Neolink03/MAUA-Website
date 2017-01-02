@@ -1,5 +1,4 @@
-/* region Mobile */
-
+/* For Mobile */
 @media screen and (max-width: 768px) {
 
   header .banner-useraction {
@@ -12,6 +11,7 @@
 
 }
 
+/* For Desktop */
 @media screen and (min-width: 768px) {
 
   .banner-useraction_mobile_menu {
@@ -23,4 +23,3 @@
   }
 
 }
-/* end region /*
