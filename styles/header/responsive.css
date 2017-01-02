@@ -24,12 +24,24 @@
     padding: 0.5rem;
     justify-content: space-between;
   }
+
+  .show_mobile_menu {
+    display: block;
+  }
+
+  .hide_mobile_menu {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
 
   header .banner-header img{
    width: 5rem;
+  }
+
+  .hide_mobile_menu {
+    display: block;
   }
 
 }

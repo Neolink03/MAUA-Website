@@ -10,14 +10,6 @@
     display: block;
   }
 
-  .show_mobile_menu {
-    display: block;
-  }
-
-  .hide_mobile_menu {
-    display: none;
-  }
-
 }
 
 @media screen and (min-width: 768px) {
@@ -25,13 +17,10 @@
   .banner-useraction_mobile_menu {
     display: none;
   }
-  
+
   .banner-header-mainmenu_button {
     display: none;
   }
 
-  .hide_mobile_menu {
-    display: block;
-  }
 }
 /* end region /*

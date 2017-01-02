@@ -1,33 +1,32 @@
-const toggleDisplayMobileMenu = function(mobileMenuClassName, buttonId) {
-  var showMenuButton = document.getElementById(buttonId);
-  var mobileMenu = document.getElementsByClassName(mobileMenuClassName)[0];
-  var action = showMenuButton.getAttribute("value");
+const toggleDisplayMobileMainMenu = function () {
+  var actionButton = document.getElementById("mainmenu_show_button");
+  var mobileMenu = document.getElementById("mainmenu");
+  var action = actionButton.getAttribute("value");
+
+  let baseClass = getBaseClassOfElement(mobileMenu);
 
   if(action === "show") {
-    mobileMenu.setAttribute("class", mobileMenuClassName + " show_mobile_menu");
-    showMenuButton.setAttribute("value", "hide");
+    mobileMenu.setAttribute("class", baseClass + " show_mobile_main_menu");
+    toggleActionButton(actionButton);
   }
   else {
-    mobileMenu.setAttribute("class", mobileMenuClassName + " hide_mobile_menu");
-    showMenuButton.setAttribute("value", "show");
+    mobileMenu.setAttribute("class", baseClass + " hide_mobile_main_menu");
+    toggleActionButton(actionButton);
   }
-
 }
 
-const toggleDisplayMobileMainMenu = function(mobileMenuClassName, buttonId) {
-  var showMenuButton = document.getElementById(buttonId);
-  var mobileMenu = document.getElementsByClassName(mobileMenuClassName)[0];
-  var action = showMenuButton.getAttribute("value");
+const toggleDisplayMobileLoginMenu = function () {
+  let actionButton = document.getElementById("login_show_button");
+  let mobileLoginMenu = document.getElementById("banner-useraction-login");
 
-  if(action === "show") {
-    mobileMenu.setAttribute("class", mobileMenuClassName + " show_mobile_main_menu");
-    showMenuButton.setAttribute("value", "hide");
-  }
-  else {
-    mobileMenu.setAttribute("class", mobileMenuClassName + " hide_mobile_main_menu");
-    showMenuButton.setAttribute("value", "show");
-  }
+  toggleDisplayElementAndActionButton(mobileLoginMenu, actionButton);
+}
 
+const toggleDisplayBasketLoginMenu = function () {
+  let actionButton = document.getElementById("basket_show_button");
+  let mobileBasketMenu = document.getElementById("banner-useraction-basket");
+
+  toggleDisplayElementAndActionButton(mobileBasketMenu, actionButton);
 }
 
 const displayMobileSearchAndHideBannerTitles = function() {
@@ -39,6 +38,11 @@ const displayMobileSearchAndHideBannerTitles = function() {
   toggleDisplayElement(mobileSearchBar, showButton);
   toggleActionButton(showButton);
   toggleDisplayElement(bannerTitles, showButton);
+}
+
+const toggleDisplayElementAndActionButton = function (element, actionButton) {
+  toggleDisplayElement(element, actionButton);
+  toggleActionButton(actionButton);
 }
 
 const toggleDisplayElement = function(element, actionButton) {
