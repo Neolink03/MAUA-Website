@@ -6,12 +6,13 @@
 
 body {
   font-family: 'Didact Gothic', Arial, sans-serif;
+  background-color: #a0cfa5;
 }
 
 .page_content {
-  width: 80%;
-  margin: auto;
   max-width: 1024px;
+  margin: auto;
+  background-color: #fff;
 }
 
 a {
@@ -62,7 +63,7 @@ button {
 
 .carrousel .carrousel-item {
   height: 240px;
-  width: 33.33%;
+  width: 33.333333%;
   float: left;
   background-size: 100%;
 }
@@ -83,7 +84,7 @@ button {
 }
 
 .carrousel .carrousel-item .carrousel-bloc {
-  width: 60%;
+  width: 30%;
   float: right;
   font-size: initial;
   background: rgba(0, 0, 0, 0.8);
@@ -111,15 +112,32 @@ button {
   justify-content: center;
 }
 
+.highlights-title h2 {
+  margin: 0;
+  padding: 0.7em 0;
+}
+
 .highlights-item {
   max-width: 20em;
   margin: 1em;
   border: 1px solid #DDDDDD;
 }
 
+.highlights-favourite .highlights-item {
+  max-width: 43%;
+}
+
+.highlights-news .highlights-item {
+  max-width: 29%;
+}
+
 .highlights-item a {
   display: block;
   overflow: hidden;
+}
+
+.highlights-item p {
+  min-height: 10em;
 }
 
 .highlights-item:hover img {
@@ -134,21 +152,22 @@ button {
   padding: 0 1em 1em;
 }
 
+.highlights-description p {
+  color: #596263;
+}
+
 .highlights-item img {
   width: 100%;
 }
 /** FIN FLEURS **/
 
 /** FOOTER **/
-footer {
- padding: 1em;
-}
-
 footer .blocInfos {
 	display: flex;
   flex-wrap: wrap;
 	width: 100%;
 	justify-content: space-between;
+  padding: 1em;
 }
 
 footer .newsletter div {

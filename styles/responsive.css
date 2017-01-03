@@ -1,11 +1,19 @@
 /* region Mobile */
 @media screen and (max-width: 768px) {
-  
-}
-/* end region */
-@media screen and (max-width: 1080px) {
-  .content {
-      width: 100% !important;
-      min-width: inherit !important;
+  .carrousel .carrousel-item .carrousel-bloc {
+    width: 60% !important;
+  }
+
+  .highlights-favourite .highlights-item {
+    max-width: 80% !important;
+  }
+
+  .highlights-news .highlights-item {
+    max-width: 80% !important;
+  }
+
+  .highlights-item p {
+    min-height: inherit !important;
   }
 }
+/* end region */
