@@ -7,6 +7,10 @@
   .highlights-news .highlights-item {
     max-width: 43% !important;
   }
+  
+  .carrousel .carrousel-item {
+	background-size: 100% 100% !important;
+  }
 }
 
 @media screen and (max-width: 640px) {
