@@ -4,12 +4,22 @@
     width: 60% !important;
   }
 
+  .highlights-news .highlights-item {
+    max-width: 43% !important;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .carrousel .carrousel-item .carrousel-bloc {
+    width: 60% !important;
+  }
+
   .highlights-favourite .highlights-item {
-    max-width: 80% !important;
+    max-width: inherit !important;
   }
 
   .highlights-news .highlights-item {
-    max-width: 80% !important;
+    max-width: inherit !important;
   }
 
   .highlights-item p {
